@@ -114,7 +114,7 @@ before and after the section, with the following syntax: -->
   <check class="org.scalastyle.scalariform.IfBraceChecker" enabled="true" level="warning">
     <parameters>
       <parameter name="singleLineAllowed"><![CDATA[true]]></parameter>
-      <parameter name="doubleLineAllowed"><![CDATA[false]]></parameter>
+      <parameter name="doubleLineAllowed"><![CDATA[true]]></parameter>
     </parameters>
   </check>
   <check class="org.scalastyle.scalariform.MethodLengthChecker" enabled="true" level="warning">
